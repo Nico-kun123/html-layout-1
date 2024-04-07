@@ -1,0 +1,40 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Общие настройки */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+*,
+*::after,
+*::before {
+  font-family: Inter;
+  margin: 0;
+  padding: 0;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ПЕРЕМЕННЫЕ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+:root {
+  /* labels с иконками справа */
+  --label-size: 12px;
+  --label-weight: 400;
+  --label-line-height: 14.5px;
+  --label-color: #666666;
+
+  /* labels страниц в nav ("спецпредложения", "контакты" и тп) */
+  /* Параметры сверху тут такие же */
+  --label-size-nav: 13px;
+  --label-line-height-nav: 19.5px;
+
+  /* Кнопка "заказать звонок" */
+  --callbtn-background-color: #0b457f;
+  --callbtn-background-color-hover: #006cd8;
+  --callbtn-text-color: #fbfbfb;
+  --callbtn-width: 424px;
+  --callbtn-height: 40px;
+  --callbtn-weight: 500;
+  --callbtn-size: 14px;
+  --callbtn-letter-spacing: 0.4px;
+  --callbtn-padding: 8px 42px 8px 42px;
+
+  /* Прозрачные кнопки */
+  --btn-min-width: 148px;
+}

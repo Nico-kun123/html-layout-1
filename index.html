@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Результаты вёрстки по макету из Figma (Кудрявцев Н.)</title>
+    <meta name="description" content="Результаты вёрстки по макеты из Figma." />
+
+    <!-- ШРИФТ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="./src/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <nav>
+        <div class="navigation__top">
+          <div class="navigation__top_left">
+            <img id="navigation__top__logo" src="./src/ui/logo.svg" />
+          </div>
+          <div class="navigation__top_right">
+            <div class="navigation__top__links">
+              <div>Автомобили в наличии</div>
+              <div>Спецпредложения</div>
+              <div>Продать авто</div>
+              <div>Сервис</div>
+              <div>Контакты</div>
+            </div>
+            <button id="navigation__top__callbtn">Заказать звонок</button>
+            <div id="navigation__top__hamburger">
+              <img src="./src/ui/icons/hamburger.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="navigation__separator"></div>
+        <div class="navigation__bottom">
+          <div class="navigation__bottom_left">
+            <img src="./src/ui/icons/location.svg" />
+            <p>Олимпийский просп., 5, стр. 1, Москва</p>
+            <img src="./src/ui/icons/arrow.svg" style="padding-left: 18px" />
+            <p>Проложить маршрут</p>
+          </div>
+
+          <div class="navigation__bottom_right">
+            <img src="./src/ui/icons/clock.svg" />
+            <p>9:00 - 21:00 (ежедневно)</p>
+          </div>
+        </div>
+      </nav>
+
+      <h1 class="main__title">
+        Теперь услуги дилерского центра Вы можете получить онлайн!
+      </h1>
+
+      <div class="main__wrapper">
+        <div class="main__wrapper__card">
+          <div class="main__wrapper__card__content">
+            <p class="main__wrapper__card__content__title title1">
+              Диагностика автомобиля перед покупкой
+            </p>
+            <p class="main__wrapper__card__content__descr descr1">
+              Расскажем обо всех скрытых дефектах автомобиля с пробегом
+            </p>
+            <div class="wrapper wrap1">
+              <button class="main__wrapper__card__content__btn btn1">
+                Записаться
+              </button>
+              <img
+                class="main__wrapper__card__content__img img1"
+                src="./src/ui/cards/DLYKASKADA.png"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="main__wrapper__card">
+          <div class="main__wrapper__card__content content2">
+            <p class="main__wrapper__card__content__title title2">
+              Онлайн показ автомобиля по видеосвязи
+            </p>
+            <p class="main__wrapper__card__content__descr descr2">
+              Проведем онлайн-показ интересующего автомобиля в удобное для Вас
+              время
+            </p>
+            <div class="wrapper wrap2">
+              <button class="main__wrapper__card__content__btn btn2">
+                Оставить заявку
+              </button>
+              <img
+                class="main__wrapper__card__content__img img2"
+                src="./src/ui/cards/kaskad-dry.png"
+              />
+            </div>
+            <img
+              class="main__wrapper__card__content overlay"
+              src="./src/ui/cards/play.svg"
+              alt="overlay image"
+            />
+          </div>
+        </div>
+
+        <div class="main__wrapper__card">
+          <div class="main__wrapper__card__content">
+            <p class="main__wrapper__card__content__title title3">
+              Онлайн бронирование
+            </p>
+            <p class="main__wrapper__card__content__descr descr3">
+              Забронируйте понравившийся автомобиль без визита в дилерский центр
+            </p>
+            <div class="wrapper wrap3">
+              <button class="main__wrapper__card__content__btn btn3">
+                Записаться
+              </button>
+              <img
+                class="main__wrapper__card__content__img img3"
+                src="./src/ui/cards/Mockup.png"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="main__wrapper__card">
+          <div class="main__wrapper__card__content">
+            <p class="main__wrapper__card__content__title title4">
+              Онлайн оценка автомобиля с пробегом
+            </p>
+            <p class="main__wrapper__card__content__descr descr4">
+              Узнайте предварительную стоимость автомобиля за 1 мин, указав его
+              параметры
+            </p>
+            <div class="wrapper wrap4">
+              <button class="main__wrapper__card__content__btn btn4">
+                Оставить заявку
+              </button>
+              <img
+                class="main__wrapper__card__content__img img4"
+                src="./src/ui/cards/MERCEDES.png"
+              />
+            </div>
+            <img src="./src/ui/cards/person.svg" width="0px" height="0px" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
